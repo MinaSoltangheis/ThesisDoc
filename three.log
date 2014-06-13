@@ -1,0 +1,121 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  6 JUN 2014 15:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**three.tex
+(./three.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./three.aux)
+\openout1 = `three.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+Chapter 1.
+[1
+
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Chapter 2.
+
+LaTeX Warning: Citation `review on NLP' on page 2 undefined on input line 20.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no è in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no è in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no è in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+[2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 54--58
+
+ []
+
+
+LaTeX Warning: Citation `folksonomy' on page 3 undefined on input line 60.
+
+[3]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
+
+ []
+
+[4
+
+]
+Chapter 4.
+[5
+
+]
+Chapter 5.
+[6
+
+] (./three.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 235 strings out of 493315
+ 2526 string characters out of 6137904
+ 56158 words of memory out of 5000000
+ 3769 multiletter control sequences out of 15000+600000
+ 5766 words of font info for 21 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 21i,4n,19p,757b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on three.pdf (6 pages, 52668 bytes).
+PDF statistics:
+ 35 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

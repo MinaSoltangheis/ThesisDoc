@@ -1,0 +1,86 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thes-full.aux
+A level-1 auxiliary file: files/titapp.aux
+A level-1 auxiliary file: files/abstract.aux
+A level-1 auxiliary file: files/dedquot.aux
+A level-1 auxiliary file: files/ack.aux
+A level-1 auxiliary file: files/preface.aux
+A level-1 auxiliary file: files/one.aux
+A level-1 auxiliary file: files/two.aux
+A level-1 auxiliary file: files/four.aux
+White space in argument---line 3 of file files/four.aux
+ : \citation{review
+ :                  on NLP}
+I'm skipping whatever remains of this command
+White space in argument---line 4 of file files/four.aux
+ : \citation{review
+ :                  on NLP}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: files/bibl.aux
+The style file: plain.bst
+A level-1 auxiliary file: files/appone.aux
+A level-1 auxiliary file: files/apptwo.aux
+A level-1 auxiliary file: files/ind.aux
+Database file #1: files/thes-both.bib
+I was expecting a `,' or a `}'---line 182 of file files/thes-both.bib
+ : @article{"review 
+ :                  on NLP",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 194 of file files/thes-both.bib
+ : @article{keyphrase 
+ :                    survey,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "folksonomy"
+Warning--to sort, need author or key in "review
+Warning--to sort, need author or key in keyphrase
+Warning--empty author in "review
+Warning--empty title in "review
+Warning--empty journal in "review
+Warning--empty year in "review
+Warning--empty author in keyphrase
+Warning--empty title in keyphrase
+Warning--empty journal in keyphrase
+Warning--empty year in keyphrase
+You've used 19 entries,
+            2118 wiz_defined-function locations,
+            625 strings with 7257 characters,
+and the built_in function-call counts, 6510 in all, are:
+= -- 658
+> -- 213
+< -- 17
++ -- 83
+- -- 61
+* -- 407
+:= -- 1011
+add.period$ -- 65
+call.type$ -- 19
+change.case$ -- 73
+chr.to.int$ -- 0
+cite$ -- 29
+duplicate$ -- 312
+empty$ -- 574
+format.name$ -- 61
+if$ -- 1450
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 23
+newline$ -- 95
+num.names$ -- 50
+pop$ -- 113
+preamble$ -- 1
+purify$ -- 62
+quote$ -- 0
+skip$ -- 224
+stack$ -- 0
+substring$ -- 390
+swap$ -- 98
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 66
+warning$ -- 10
+while$ -- 72
+width$ -- 21
+write$ -- 216
+(There were 4 error messages)

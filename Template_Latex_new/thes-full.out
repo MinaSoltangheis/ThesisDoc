@@ -1,0 +1,41 @@
+\BOOKMARK [0][-]{Doc-Start}{Approval}{}% 1
+\BOOKMARK [0][-]{Doc-Start}{Partial Copyright License}{}% 2
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 3
+\BOOKMARK [0][-]{chapter*.1}{Dedication}{}% 4
+\BOOKMARK [0][-]{chapter*.1}{Quotation}{}% 5
+\BOOKMARK [0][-]{chapter*.2}{Acknowledgments}{}% 6
+\BOOKMARK [0][-]{chapter*.2}{Contents}{}% 7
+\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 8
+\BOOKMARK [0][-]{chapter*.4}{List of Figures}{}% 9
+\BOOKMARK [0][-]{chapter*.5}{List of Programs}{}% 10
+\BOOKMARK [0][-]{chapter*.7}{Preface}{}% 11
+\BOOKMARK [0][-]{chapter.1}{Purpose}{}% 12
+\BOOKMARK [1][-]{section.1.1}{Main features of csthesis.sty}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.2}{Distribution}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.3}{How to use csthesis.sty}{chapter.1}% 15
+\BOOKMARK [0][-]{chapter.2}{Changes from sfuthesis.sty}{}% 16
+\BOOKMARK [1][-]{section.2.1}{Page layout}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.2}{Line spacing}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.3}{Front matter}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.3.1}{Title page}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.2}{Approval page}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.3}{Dedication and Quotation pages}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.4}{Contents}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.5}{Preface}{section.2.3}% 24
+\BOOKMARK [1][-]{section.2.4}{Back matter}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.4.1}{Appendices}{section.2.4}% 26
+\BOOKMARK [2][-]{subsection.2.4.2}{Bibliography}{section.2.4}% 27
+\BOOKMARK [2][-]{subsection.2.4.3}{Index}{section.2.4}% 28
+\BOOKMARK [0][-]{chapter.3}{introduction}{}% 29
+\BOOKMARK [1][-]{section.3.1}{literature review}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.2}{what are the algorithms in keyword extraction }{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.3}{our approach our algorithm}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.4}{visualization of trends}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.5}{conclusion}{chapter.3}% 34
+\BOOKMARK [0][-]{section.3.5}{Bibliography}{}% 35
+\BOOKMARK [0][-]{Appendix.a.A}{Appendix Appendices:Sectioning}{}% 36
+\BOOKMARK [1][-]{section.a.A.1}{Section}{Appendix.a.A}% 37
+\BOOKMARK [2][-]{subsection.a.A.1.1}{Subsection}{section.a.A.1}% 38
+\BOOKMARK [0][-]{Appendix.a.B}{Appendix Illustrating Lists}{}% 39
+\BOOKMARK [1][-]{section.a.B.1}{List of Programs}{Appendix.a.B}% 40
+\BOOKMARK [1][-]{section.a.B.2}{Formatting of Lists}{Appendix.a.B}% 41

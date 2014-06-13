@@ -1,0 +1,44 @@
+\contentsline {chapter}{Approval}{ii}{Doc-Start}
+\contentsline {chapter}{Partial Copyright License}{iii}{Doc-Start}
+\contentsline {chapter}{Abstract}{iv}{chapter*.1}
+\contentsline {chapter}{Dedication}{v}{chapter*.1}
+\contentsline {chapter}{Quotation}{vi}{chapter*.1}
+\contentsline {chapter}{Acknowledgments}{vii}{chapter*.2}
+\contentsline {chapter}{Contents}{viii}{chapter*.2}
+\contentsline {chapter}{List of Tables}{x}{chapter*.3}
+\contentsline {chapter}{List of Figures}{xi}{chapter*.4}
+\contentsline {chapter}{List of Programs}{xii}{chapter*.5}
+\contentsline {chapter}{Preface}{xiii}{chapter*.7}
+\contentsline {chapter}{\numberline {1}Purpose}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Main features of \textsf {csthesis.sty}}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Distribution}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}How to use \textsf {csthesis.sty}}{3}{section.1.3}
+\contentsline {chapter}{\numberline {2}Changes from \textsf {sfuthesis.sty}}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Page layout}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Line spacing}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Front matter}{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Title page}{5}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Approval page}{5}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Dedication and Quotation pages}{6}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Contents}{6}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Preface}{6}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Back matter}{6}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Appendices}{6}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Bibliography}{6}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Index}{7}{subsection.2.4.3}
+\contentsline {chapter}{\numberline {3}introduction}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}literature review}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}what are the algorithms in keyword extraction }{8}{section.3.2}
+\contentsline {section}{\numberline {3.3}our approach our algorithm}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}visualization of trends}{10}{section.3.4}
+\contentsline {section}{\numberline {3.5}conclusion}{10}{section.3.5}
+\contentsline {chapter}{Bibliography}{11}{section.3.5}
+\contentsline {chapter}{Appendix \numberline {A}Appendices:Sectioning}{13}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Section}{13}{section.a.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Subsection}{13}{subsection.a.A.1.1}
+\contentsline {subsubsection}{Subsubsection}{13}{section*.9}
+\contentsline {paragraph}{Paragraph}{13}{section*.10}
+\contentsline {subparagraph}{Subparagraph}{13}{section*.11}
+\contentsline {chapter}{Appendix \numberline {B}Illustrating Lists}{14}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}List of Programs}{14}{section.a.B.1}
+\contentsline {section}{\numberline {B.2}Formatting of Lists}{15}{section.a.B.2}
