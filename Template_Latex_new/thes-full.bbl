@@ -1,11 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{"review}
-
-
-\bibitem{keyphrase}
-
-
 \bibitem{alshawi87}
 Hiyan Alshawi.
 \newblock {\em Memory and Context for Language Interpretation}.
@@ -19,6 +13,13 @@ Nicholas Asher.
 \newblock In Hans Kamp and Barbara~H. Partee, editors, {\em Proceedings of the
   workshops on Context Dependence in the Analysis of Linguistic Meaning},
   volume 1: Papers, pages 21--51. IMS, University of Stuttgart, 1995.
+
+\bibitem{NLPSurvey}
+E.~Cambria and B.~White.
+\newblock Jumping nlp curves: A review of natural language processing research
+  [review article].
+\newblock {\em Computational Intelligence Magazine, IEEE}, 9(2):48--57, May
+  2014.
 
 \bibitem{chierchia95}
 Gennaro Chierchia.
@@ -96,6 +97,10 @@ Jeanette~K. Gundel.
   Studies in Language}, pages 209--239. John Benjamins: Amsterdam,
   Philadelphia, 1988.
 
+\bibitem{keyphrasesurvey}
+Kazi~Saidul Hasan and Vincent Ng.
+\newblock Automatic keyphrase extraction: A survey of the state of the art.
+
 \bibitem{dekker-hendriks96}
 Herman Hendriks and Paul Dekker.
 \newblock Links without location.
@@ -103,7 +108,7 @@ Herman Hendriks and Paul Dekker.
   Tenth Amsterdam Colloquium}, pages 339--358. ILLC---Dept.\ of Philosophy,
   University of Amsterdam, 1996.
 
-\bibitem{"folksonomy"}
+\bibitem{folksonomy}
 Olena Medelyan, Eibe Frank, and Ian~H. Witten.
 \newblock Human-competitive tagging using automatic keyphrase extraction.
 \newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
