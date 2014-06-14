@@ -15,12 +15,11 @@ A level-1 auxiliary file: files/appone.aux
 A level-1 auxiliary file: files/apptwo.aux
 A level-1 auxiliary file: files/ind.aux
 Database file #1: files/thes-both.bib
-Warning--I didn't find a database entry for "6786458"
-Warning--empty journal in keyphrasesurvey
-Warning--empty year in keyphrasesurvey
+Warning--empty journal in KeyphraseSurvey
+Warning--empty year in KeyphraseSurvey
 You've used 19 entries,
             2118 wiz_defined-function locations,
-            634 strings with 7528 characters,
+            634 strings with 7536 characters,
 and the built_in function-call counts, 6742 in all, are:
 = -- 688
 > -- 237
@@ -59,4 +58,4 @@ warning$ -- 2
 while$ -- 77
 width$ -- 21
 write$ -- 226
-(There were 3 warnings)
+(There were 2 warnings)

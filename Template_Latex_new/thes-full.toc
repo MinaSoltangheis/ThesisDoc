@@ -29,16 +29,16 @@
 \contentsline {chapter}{\numberline {3}introduction}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}literature review}{8}{section.3.1}
 \contentsline {section}{\numberline {3.2}what are the algorithms in keyword extraction }{8}{section.3.2}
-\contentsline {section}{\numberline {3.3}our approach our algorithm}{11}{section.3.3}
-\contentsline {section}{\numberline {3.4}visualization of trends}{11}{section.3.4}
-\contentsline {section}{\numberline {3.5}conclusion}{11}{section.3.5}
-\contentsline {chapter}{Bibliography}{12}{section.3.5}
-\contentsline {chapter}{Appendix \numberline {A}Appendices:Sectioning}{14}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Section}{14}{section.a.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Subsection}{14}{subsection.a.A.1.1}
-\contentsline {subsubsection}{Subsubsection}{14}{section*.9}
-\contentsline {paragraph}{Paragraph}{14}{section*.10}
-\contentsline {subparagraph}{Subparagraph}{14}{section*.11}
-\contentsline {chapter}{Appendix \numberline {B}Illustrating Lists}{15}{Appendix.a.B}
-\contentsline {section}{\numberline {B.1}List of Programs}{15}{section.a.B.1}
-\contentsline {section}{\numberline {B.2}Formatting of Lists}{16}{section.a.B.2}
+\contentsline {section}{\numberline {3.3}our approach our algorithm}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}visualization of trends}{14}{section.3.4}
+\contentsline {section}{\numberline {3.5}conclusion}{14}{section.3.5}
+\contentsline {chapter}{Bibliography}{15}{section.3.5}
+\contentsline {chapter}{Appendix \numberline {A}Appendices:Sectioning}{17}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Section}{17}{section.a.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Subsection}{17}{subsection.a.A.1.1}
+\contentsline {subsubsection}{Subsubsection}{17}{section*.9}
+\contentsline {paragraph}{Paragraph}{17}{section*.10}
+\contentsline {subparagraph}{Subparagraph}{17}{section*.11}
+\contentsline {chapter}{Appendix \numberline {B}Illustrating Lists}{18}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}List of Programs}{18}{section.a.B.1}
+\contentsline {section}{\numberline {B.2}Formatting of Lists}{19}{section.a.B.2}

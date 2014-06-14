@@ -73,10 +73,15 @@ Tagging is the process of labeling web resources based on their content. Each la
 \textbf{what is keyphrase? what is keyphrase extraction?what is the goal of extracting keyphrases?}
 Many journals ask their authors to provide a list of keywords for their articles. We call these keyphrases, rather than keywords, because they are often phrases of two or more words, rather than single words. We define a keyphrase list as a short list of phrases (typically five to fifteen noun phrases) that capture the main topics discussed in a given document. This paper is concerned with the automatic extraction of keyphrases from text.
 Keyphrases are meant to serve multiple goals. For example, (1) when they are printed on the first page of a journal article, the goal is summarization. They enable the reader to quickly determine whether the given article is in the reader’s fields of interest. (2) When they are printed in the cumulative index for a journal, the goal is indexing. They enable the reader to quickly find a relevant article when the reader has a specific need. (3) When a search engine form has a field labelled keywords, the goal is to enable the reader to make the search more precise. A search for documents that match a given query term in the keyword field will yield a smaller, higher quality list of hits than a search for the same term in the full text of the documents. Keyphrases can serve these diverse goals and others, because the goals share the requirement for a short list of phrases that captures the main topics of the documents.
-We define automatic keyphrase extraction as the automatic selection of important, topical phrases from within the body of a document. Automatic keyphrase extraction is a special case of the more general task of automatic keyphrase generation, in which the generated phrases do not necessarily appear in the body of the given document. 
+We define automatic keyphrase extraction as the automatic selection of important, topical phrases from within the body of a document. Automatic keyphrase extraction is a special case of the more general task of automatic keyphrase generation, in which the generated phrases do not necessarily appear in the body of the given document.\newline\newline\newline
+ Automatic keyphrase extraction concerns “the automatic selection of important and topical phrases from the body of a document” (Turney, 2000). In other words, its goal is to extract a set of phrases that are related to the main topics discussed in a given document (Tomokiyo and Hurst, 2003; Liu et al., 2009b; Ding et al., 2011; Zhao et al., 2011).\cite{KeyphraseSurvey}
+\newline
+
+ 
 \textbf{what is the differences between indexing and keyphrase list}
 
 We discuss related work by other researchers in Section 3. The most closely related work involves the problem of automatic index generation (Fagan 1987, Salton 1988, Ginsberg 1993, Nakagawa 1997, Leung and Kan 1997). One difference between keyphrase extraction and index generation is that, although keyphrases may be used in an index, keyphrases have other applications, beyond indexing. Another difference between a keyphrase list and an index is length. Because a keyphrase list is relatively short, it must contain only the most important, topical phrases for a given document. Because an index is relatively long, it can contain many less important, less topical phrases. Also, a keyphrase list can be read and judged in seconds, but an index might never be read in its entirety. Automatic keyphrase extraction is thus a more demanding task than automatic index generation. \cite{turney2000}
+
 \textbf{diffrence between keyphrase extraction and information extraction}
 Keyphrase extraction is also distinct from information extraction, the task that has been studied in depth in the Message Understanding Conferences (MUC-3 1991, MUC-4 1992, MUC-5 1993, MUC-6 1995). Information extraction involves extracting specific types of task-dependent information. For example, given a collection of news reports on terrorist attacks, information extraction involves finding specific kinds of information, such as the name of the terrorist organization, the names of the victims, and the type of incident (e.g., kidnapping, murder, bombing). In contrast, keyphrase extraction is not specific. The goal in keyphrase extraction is to produce topical phrases, for any type of factual, prosaic document. \cite{turney2000}
 
@@ -86,22 +91,67 @@ of keyphrases. This is the classical machine learning problem of learning from e
 The experiments in this paper use five collections of documents, with a combined total of 652 documents. The collections are presented in Section 4. In our first set of experiments (Section 6), we evaluate nine different ways to apply C4.5. In preliminary experiments with the training documents, we found that bagging seemed to improve the performance of C4.5 (Breiman 1996a, b, Quinlan 1996). Bagging works by generating many different decision trees and allowing them to vote on the classification of each example. We experimented with different numbers of trees and different techniques for sampling the training data. The experiments support the hypothesis that bagging improves the performance of C4.5 when applied to automatic keyphrase extraction.
 During our experiments with C4.5, we came to believe that a specialized algorithm, developed specifically for learning to extract keyphrases, might achieve better results than a general-purpose learning algorithm, such as C4.5. Section 7 introduces the GenEx algorithm. GenEx is a hybrid of the Genitor steady-state genetic algorithm (Whitley 1989) and the Extractor parameterized keyphrase extraction algorithm (Turney 1997, 1999).4 Extractor works by assigning a numerical score to the phrases in the input document. The final output of Extractor is essentially a list of the highest scoring phrases. The behaviour of the scoring function is determined by a dozen numerical parameters. Genitor tunes the setting of these parameters, to maximize the performance of Extractor on a given set of training examples.
 The second set of experiments (Section 8) supports the hypothesis that a specialized algorithm (GenEx) can generate better keyphrases than a general-purpose algorithm (C4.5). Both algorithms incorporate significant amounts of domain knowledge, but we avoided embedding specialized procedural knowledge in our application of C4.5. It appears that some degree of specialized procedural knowledge is necessary for automatic keyphrase extraction.
-The third experiment (Section 9) looks at subjective human evaluation of the quality of the keyphrases produced by GenEx. On average, about 80% of the automatically generated keyphrases are judged to be acceptable and about 60% are judged to be good.\cite{turney2000}
+The third experiment (Section 9) looks at subjective human evaluation of the quality of the keyphrases produced by GenEx. On average, about 80% of the automatically generated keyphrases are judged to be acceptable and about 60% are judged to be good.\cite{turney2000} \newline
+
+\textbf{Importance of keyphrase extraction and its applications}
+Document keyphrases have enabled fast and ac- curate searching for a given document from a large text collection, and have exhibited their potential in improving many natural language processing (NLP) and information retrieval (IR) tasks, such as text summarization (Zhang et al., 2004), text categorization (Hulth and Megyesi, 2006), opin- ion mining (Berend, 2011), and document index- ing (Gutwin et al., 1999). \cite{KeyphraseSurvey}
+\newline
+Owing to its importance, automatic keyphrase extraction has received a lot of attention. However, the task is far from being solved: state-of-the-art performance on keyphrase extraction is still much lower than that on many core NLP tasks (Liu et al., 2010).\cite{KeyphraseSurvey}
+
+textbf{what are the difficulties involved in keyphrase extraction}
+Automatic keyphrase extraction systems have been evaluated on corpora from a variety of
+sources ranging from long scientific publications to short paper abstracts and email messages. Ta- ble 1 presents a listing of the corpora grouped by their sources as well as their statistics.1 There are at least four corpus-related factors that affect the difficulty of keyphrase extraction.
+Length The difficulty of the task increases with the length of the input document as longer doc- uments yield more candidate keyphrases (i.e., phrases that are eligible to be keyphrases (see Sec- tion 3.1)). For instance, each Inspec abstract has on average 10 annotator-assigned keyphrases and 34 candidate keyphrases. In contrast, a scientific paper typically has at least 10 keyphrases and hun- dreds of candidate keyphrases, yielding a much bigger search space (Hasan and Ng, 2010). Conse- quently, it is harder to extract keyphrases from sci- entific papers, technical reports, and meeting tran- scripts than abstracts, emails, and news articles.
+Structural consistency In a structured doc- ument, there are certain locations where a keyphrase is most likely to appear. For instance, most of a scientific paper’s keyphrases should ap- pear in the abstract and the introduction. While structural information has been exploited to ex- tract keyphrases from scientific papers (e.g., title, section information) (Kim et al., 2013), web pages (e.g., metadata) (Yih et al., 2006), and chats (e.g., dialogue acts) (Kim and Baldwin, 2012), it is most useful when the documents from a source exhibit structural similarity. For this reason, structural in- formation is likely to facilitate keyphrase extrac- tion from scientific papers and technical reports because of their standard format (i.e., standard sections such as abstract, introduction, conclusion, etc.). In contrast, the lack of structural consistency in other types of structured documents (e.g., web pages, which can be blogs, forums, or reviews)may render structural information less useful. Topic change An observation commonly ex- ploited in keyphrase extraction from scientific ar- ticles and news articles is that keyphrases typically appear not only at the beginning (Witten et al., 1999) but also at the end (Medelyan et al., 2009) of a document. This observation does not neces- sarily hold for conversational text (e.g., meetings, chats), however. The reason is simple: in a conver- sation, the topics (i.e., its talking points) change as the interaction moves forward in time, and so do the keyphrases associated with a topic. One way to address this complication is to detect a topic change in conversational text (Kim and Baldwin, 2012). However, topic change detection is not al- ways easy: while the topics listed in the form of an agenda at the beginning of formal meeting tran- scripts can be exploited, such clues are absent in casual conversations (e.g., chats).
+Topic correlation Another observation com- monly exploited in keyphrase extraction from scientific articles and news articles is that the keyphrases in a document are typically related to each other (Turney, 2003; Mihalcea and Tarau, 2004). However, this observation does not nec- essarily hold for informal text (e.g., emails, chats, informal meetings, personal blogs), where people can talk about any number of potentially uncorre- lated topics. The presence of uncorrelated topics implies that it may no longer be possible to exploit relatedness and therefore increases the difficulty of keyphrase extraction.
+
+
+\textbf{what are the different approaches to this problem?}
+\textbf{two general steps in all approaches}
+A keyphrase extraction system typically operates in two steps: (1) extracting a list of words/phrases that serve as candidate keyphrases using some
+heuristics (Section 3.1); and (2) determining which of these candidate keyphrases are correct keyphrases using supervised (Section 3.2) or un- supervised (Section 3.3) approaches.\cite{KeyphraseSurvey}
+
+\textbf{approaches to solve the first step:extracting candidates }
+As noted before, a set of phrases and words is typically extracted as candidate keyphrases using heuristic rules. These rules are designed to avoid spurious instances and keep the number of candi- dates to a minimum. Typical heuristics include (1) using a stop word list to remove stop words (Liu et al., 2009b), (2) allowing words with certain part- of-speech tags (e.g., nouns, adjectives, verbs) to be candidate keywords (Mihalcea and Tarau, 2004; Wan and Xiao, 2008b; Liu et al., 2009a), (3) al- lowing n-grams that appear in Wikipedia article titles to be candidates (Grineva et al., 2009), and (4) extracting n-grams (Witten et al., 1999; Hulth, 2003; Medelyan et al., 2009) or noun phrases (Barker and Cornacchia, 2000; Wu et al., 2005) that satisfy pre-defined lexico-syntactic pattern(s) (Nguyen and Phan, 2009).\cite{KeyphraseSurvey}
+Many of these heuristics have proven effective with their high recall in extracting gold keyphrases from various sources. However, for a long docu- ment, the resulting list of candidates can be long. Consequently, different pruning heuristics have been designed to prune candidates that are un- likely to be keyphrases (Huang et al., 2006; Kumar and Srinathan, 2008; El-Beltagy and Rafea, 2009; You et al., 2009; Newman et al., 2012).\cite{KeyphraseSurvey}
+
+\textbf{approaches for the second step:choose correct candidates amongst all candidtes}
+\textbf{Supervised approaches}: 
+//can be copied form \cite{KeyphraseSurvey}\newline
+
+\textbf{unsupervise approaches}:\newline
+\textbf{1- graph based Ranking}
+
+\textbf{2- Topic-Based Clustering}
+
+\textbf{3- Simultaneous Learning}
+\textbf{4- Language Modeling}
+\cite{KeyphraseSurvey}
+
+
+however here we focus on the graphbased methods.
+\textbf{Focuse on Graph Based ranking}
+\textbf{WHy should we create a graph of tags and why intuitively it works?(rewrite the concept)}
+
+Intuitively, keyphrase extraction is about finding the important words and phrases from a document. Traditionally, the importance of a candidate has often been defined in terms of how related it is to other candidates in the document. Informally, a candidate is important if it is related to (1) a large number of candidates and (2) candidates that are important. Researchers have computed relatedness between candidates using co-occurrence counts (Mihalcea and Tarau, 2004; Matsuo and Ishizuka, 2004) and semantic relatedness (Grineva et al., 2009), and represented the relatedness information collected from a document as a graph (Mihalcea and Tarau, 2004; Wan and Xiao, 2008a; Wan and Xiao, 2008b; Bougouin et al., 2013).\cite{KeyphraseSurvey}
+The basic idea behind a graph-based approach is to build a graph from the input document and rank its nodes according to their importance using a graph-based ranking method (e.g., Brin and Page (1998)). Each node of the graph corresponds to a candidate keyphrase from the document and an edge connects two related candidates. The edge weight is proportional to the syntactic and/or semantic relevance between the connected candidates. For each node, each of its edges is treated as a “vote” from the other node connected by the edge. A node’s score in the graph is defined recur- sively in terms of the edges it has and the scores of the neighboring nodes. The top-ranked candidates from the graph are then selected as keyphrases for the input document. TextRank (Mihalcea and Ta- rau, 2004) is one of the most well-known graph- based approaches to keyphrase extraction.
+This instantiation of a graph-based approach overlooks an important aspect of keyphrase ex- traction, however. A set of keyphrases for a doc- ument should ideally cover the main topics dis- cussed in it, but this instantiation does not guaran- tee that all the main topics will be represented by the extracted keyphrases. Despite this weakness, a graph-based representation of text was adopted by many approaches that propose different ways of computing the similarity between two candidates.\cite{KeyphraseSurvey}
 
 
 
 
-\textbf{supervised} \newline
-\textbf{unsupervised}\newline
-\textbf{graph-based algorithms}\newline
+
 \textbf{what works and what fails}\newline
-\textbf {Automatic keyphrase extraction}
 \section{our approach our algorithm}
 \textbf{our algorithm a bit of introduction}\newline
 \textbf{data acquisition}\newline
 \textbf{data cleaning}\newline
 \textbf{the results}\newline
 
+
+
+\textbf{changes in a network}
+\textbf{visualization of changes in a network, allovial chart}
 \section{visualization of trends}
 
 \section{conclusion}
